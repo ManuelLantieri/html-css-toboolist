@@ -50,6 +50,7 @@ main{
     width: 800px;
     margin: auto;
     padding: 15px 40px;
+    border-radius: 10px;
 }
 
 /* BUTTON */
@@ -72,8 +73,12 @@ main{
 
 /* liste */
 
-ul{
+#first-ul{
     padding-top: 30px;
+}
+
+ul{
+    padding-top: 20px;
     
 }
 
@@ -136,4 +141,14 @@ padding-top: 20px;
     background-color: #FF9B00;
 }
 
+.tag-fuxia{ 
 
+    background-color: #EC4A9D; 
+
+} 
+
+.tag-lime{ 
+
+    background-color: #A3D116; 
+
+} 
