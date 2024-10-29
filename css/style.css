@@ -55,6 +55,7 @@ main{
 
 /* BUTTON */
 
+
 .btn{
     background-color: transparent;
     border: 1px solid;
@@ -78,7 +79,7 @@ main{
 }
 
 ul{
-    padding-top: 20px;
+    padding-top: 0;
     
 }
 
@@ -96,6 +97,7 @@ li {
 #first-row{
 padding-top: 20px;
 }
+
 
 .circle{
     display: inline-block;
