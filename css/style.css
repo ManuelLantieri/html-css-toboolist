@@ -44,13 +44,15 @@ h1{
               MAIN
 ------------------------------------------- */
 
+
 main{
     background-color: #ffffff;
     width: 800px;
     margin: auto;
-    border-radius: 8px;
-    padding: 20px;
+    padding: 15px 40px;
 }
+
+/* BUTTON */
 
 .btn{
     background-color: transparent;
@@ -66,4 +68,50 @@ main{
 
 .btn-white{
     color: #C4CBD0;
+}
+
+/* liste */
+
+ul{
+    padding-top: 30px;
+    
+}
+
+h2{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+li {
+    list-style: none;
+}
+
+#first-row{
+padding-top: 10px;
+}
+
+.circle{
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border: 1px solid #2CC6AB;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 20px;
+}
+
+.grn{
+    color: #2CC6AB;
+}
+
+.tag{
+    display: inline-block;
+    color: #ffffff;
+    font-size: 12px;
+    padding: 8px 12px;
+    border-radius: 13px;
+}
+
+.tag-blue{
+    background-color: #14AAF5;
 }
