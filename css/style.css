@@ -84,24 +84,32 @@ h2{
 
 li {
     list-style: none;
+    padding-bottom: 15px;
+    font-weight: 425;
 }
 
 #first-row{
-padding-top: 10px;
+padding-top: 20px;
 }
 
 .circle{
     display: inline-block;
     height: 20px;
     width: 20px;
-    border: 1px solid #2CC6AB;
+    margin-right: 6px;
     border-radius: 100%;
     text-align: center;
     line-height: 20px;
 }
 
 .grn{
-    color: #2CC6AB;
+    color: #73c7b3;
+    border: 2px solid #73c7b3;
+}
+
+.red{
+    color: red;
+    border: 2px solid red;
 }
 
 .tag{
@@ -115,3 +123,17 @@ padding-top: 10px;
 .tag-blue{
     background-color: #14AAF5;
 }
+
+.tag-purple{
+    background-color: #ab5de6;
+}
+
+.tag-green{
+    background-color: #2CC6AB;
+}
+
+.tag-orange{
+    background-color: #FF9B00;
+}
+
+
