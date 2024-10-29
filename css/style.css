@@ -8,6 +8,10 @@
     margin: 0;
 }
 
+/* ------------------------------------------
+              general
+------------------------------------------- */
+
 body{
     background-color: #F6F8F9;
     font-family: "Roboto", sans-serif;
@@ -20,6 +24,7 @@ body{
 header{
     background-color: white;
     padding: 15px 20px;
+    margin-bottom: 40px;
 }
 
 
@@ -33,4 +38,32 @@ h1{
 
 .logo{
     vertical-align: middle;
+}
+
+/* ------------------------------------------
+              MAIN
+------------------------------------------- */
+
+main{
+    background-color: #ffffff;
+    width: 800px;
+    margin: auto;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.btn{
+    background-color: transparent;
+    border: 1px solid;
+    padding: 7px;
+    border-radius: 6px;
+}
+
+.btn-blue{
+    background-color: #14AAF5;
+    color: #ffffff;
+}
+
+.btn-white{
+    color: #C4CBD0;
 }
